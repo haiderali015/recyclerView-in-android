@@ -8,17 +8,22 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-public class myadapter extends RecyclerView.Adapter {
+public class myadapter extends RecyclerView.Adapter<myadapter.holder> {
 
+String data[];
+
+    public myadapter(String[] data) {
+        this.data = data;
+    }
 
     @NonNull
     @Override
-    public RecyclerView.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
+    public holder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         return null;
     }
 
     @Override
-    public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
+    public void onBindViewHolder(@NonNull holder holder, int position) {
 
     }
 
