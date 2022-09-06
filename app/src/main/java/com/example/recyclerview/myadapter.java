@@ -34,7 +34,7 @@ String data[];
 
     @Override
     public int getItemCount() {
-        return 0;
+        return data.length;
     }
 
     class holder extends RecyclerView.ViewHolder{

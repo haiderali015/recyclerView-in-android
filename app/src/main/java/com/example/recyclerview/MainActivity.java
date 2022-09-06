@@ -16,5 +16,8 @@ public class MainActivity extends AppCompatActivity {
         RecyclerView rcv = (RecyclerView) findViewById(R.id.rclview);
         rcv.setLayoutManager(new LinearLayoutManager(this));
 
+        String arr []= {"C","C++",".net","Php","C","C++",".net","Php","C","C++",".net","Php","C","C++",".net","Php"};
+        rcv.setAdapter(new myadapter(arr));
+
     }
 }
