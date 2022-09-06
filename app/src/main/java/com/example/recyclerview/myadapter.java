@@ -1,5 +1,7 @@
 package com.example.recyclerview;
 
-public class myadapter {
+import androidx.recyclerview.widget.RecyclerView;
+
+public class myadapter extends RecyclerView.Adapter {
 
 }
