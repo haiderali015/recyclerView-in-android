@@ -29,6 +29,7 @@ String data[];
     @Override
     public void onBindViewHolder(@NonNull holder holder, int position) {
 
+        holder.txt.setText(data[position]);
     }
 
     @Override
