@@ -4,15 +4,16 @@
     android:layout_height="100dp">
     <ImageView
         android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:src="@drawable/cat"
+        android:layout_height="80dp"
+        android:src="@drawable/haider"
         android:id="@+id/img1" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/t1"
+        android:layout_marginTop="20dp"
         android:textSize="20dp"
-        
+        android:text="this is demo text"/>
 
 </androidx.appcompat.widget.LinearLayoutCompat>
